@@ -11,6 +11,11 @@
 		189028CA262E94B4001891F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189028C9262E94B4001891F4 /* ContentView.swift */; };
 		189028CC262E94B5001891F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189028CB262E94B5001891F4 /* Assets.xcassets */; };
 		189028CF262E94B5001891F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189028CE262E94B5001891F4 /* Preview Assets.xcassets */; };
+		189028D8262E9578001891F4 /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 189028D7262E9578001891F4 /* drinks.json */; };
+		189028DB262E962C001891F4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189028DA262E962C001891F4 /* Data.swift */; };
+		189028DE262E9659001891F4 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189028DD262E9659001891F4 /* Drink.swift */; };
+		189028E1262E998B001891F4 /* DrinkItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189028E0262E998B001891F4 /* DrinkItemView.swift */; };
+		18DAA26F2630DFCD00968E04 /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DAA26E2630DFCD00968E04 /* DrinkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		189028CB262E94B5001891F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189028CE262E94B5001891F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		189028D0262E94B5001891F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189028D7262E9578001891F4 /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = drinks.json; path = "../../../Downloads/Compressed/CoffeeDB-master/CoffeeDB/drinks.json"; sourceTree = "<group>"; };
+		189028DA262E962C001891F4 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		189028DD262E9659001891F4 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		189028E0262E998B001891F4 /* DrinkItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItemView.swift; sourceTree = "<group>"; };
+		18DAA26E2630DFCD00968E04 /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 				189028C9262E94B4001891F4 /* ContentView.swift */,
 				189028CB262E94B5001891F4 /* Assets.xcassets */,
 				189028D0262E94B5001891F4 /* Info.plist */,
+				18DAA26E2630DFCD00968E04 /* DrinkRow.swift */,
+				189028D7262E9578001891F4 /* drinks.json */,
+				189028DA262E962C001891F4 /* Data.swift */,
+				189028DD262E9659001891F4 /* Drink.swift */,
+				189028E0262E998B001891F4 /* DrinkItemView.swift */,
 				189028CD262E94B5001891F4 /* Preview Content */,
 			);
 			path = CoffeeDB;
@@ -128,6 +143,7 @@
 			files = (
 				189028CF262E94B5001891F4 /* Preview Assets.xcassets in Resources */,
 				189028CC262E94B5001891F4 /* Assets.xcassets in Resources */,
+				189028D8262E9578001891F4 /* drinks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				189028CA262E94B4001891F4 /* ContentView.swift in Sources */,
+				18DAA26F2630DFCD00968E04 /* DrinkRow.swift in Sources */,
+				189028DB262E962C001891F4 /* Data.swift in Sources */,
+				189028E1262E998B001891F4 /* DrinkItemView.swift in Sources */,
+				189028DE262E9659001891F4 /* Drink.swift in Sources */,
 				189028C8262E94B4001891F4 /* CoffeeDBApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    // create dictionary
+    var categories: [String:[Drink]]{
+        .init(
+            grouping: drinkData, by: {$0.category.rawValue}
+        )
+    }
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            List(categories.keys.sorted(), id: \.self){key in
+                DrinkRow(categoryName: "\(key) Drinks".uppercased(), drinks: self.categories[key]!)
+            }
+            .navigationTitle("Drinks")
+        }
     }
 }
 

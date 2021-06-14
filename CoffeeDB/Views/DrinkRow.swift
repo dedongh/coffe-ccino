@@ -26,9 +26,13 @@ struct DrinkRow: View {
             ScrollView(.horizontal, showsIndicators: false){
                 HStack(alignment: .top) {
                     ForEach(drinks.shuffled(), id: \.self){ drink in
-                       DrinkItemView(drink: drink)
-                        .frame(width: 300)
-                        .padding(.horizontal, 10)
+                        NavigationLink(
+                            destination: DrinkDetailView(drink: drink)
+                        ){
+                            DrinkItemView(drink: drink)
+                             .frame(width: 300)
+                             .padding(.horizontal, 10)
+                        }
                     
                     }
                 }
